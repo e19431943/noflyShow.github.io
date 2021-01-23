@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+}
+.navBar{
+    width: 100%;
+    max-width: 1200px;
+}
+.nav-button
+{
+    background-color:#0fffff;
+    margin: 0px 10px 20px;
+}
+@media screen and (min-width:768px){
+    .navBar{
+        display: flex;
+        margin: auto;
+    }
+    .nav-button{
+        width: 500px;
+    }
+
+
+}

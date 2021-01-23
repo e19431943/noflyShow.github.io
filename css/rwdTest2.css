@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+img{
+    vertical-align: bottom;
+}
+
+.banner img{
+   width: 100%;
+}
+
+.title{
+    margin: 0px 0px 20px;
+    background-color: #ccc;
+    padding: 30px 10px;
+}
+
+.title h2{
+    text-align: center;
+    font-size: 46px;
+}
+.title p{
+    font-size: 16px;
+    text-align: center;
+}
+.content-group{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+
+
+.content{
+    margin:0px 10px 40px;
+}
+.content  img{
+    width: 100%;
+}
+/*.content-group{ /*使用於哪裡，就是平板或是電腦看到的畫面
+    display: flex;
+}*/
+
+.service{
+    background-color: #ffa;
+    margin: 60px 0px;
+}
+.service .content{
+    margin: 0px 10px;
+}
+
+@media screen and (min-width:768px){
+    .content-group{
+        display: flex;
+    }
+    .service .content{
+        display:flex;
+    }
+    .service .pic,.service .text{
+        width: 50%;
+        margin: 0PX;
+    }
+    .service .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+.footer{
+    background-color: #333;
+    color:#aaa;
+    text-align: center;
+}
